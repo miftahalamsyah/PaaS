@@ -16,6 +16,7 @@ export const Skills: NextPage<ISKillsProps> = ({ skills }) => {
             <h1 className="skills_heading">Games</h1>
             <div className="contact_email">
                 <p >Gimana sudah paham materinya? yuk coba games 🎮 berikut :</p>
+                <p></p>
             </div>
             <div className="skills_box">
 

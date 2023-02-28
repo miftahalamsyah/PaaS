@@ -122,9 +122,9 @@ const Home: NextPage<IHomeProps> = ({ jobs, projects, skills }) => {
       <main className="main" data-theme={theme}>
         <Navbar onNavItemClick={handleNavItemClick} switchTheme={switchTheme} theme={theme} />
 
-        {/*<section className="about">*/}
-        {/*  <About />*/}
-        {/*</section>*/}
+        <section className="about">
+          <About />
+        </section>
 
         {/*<section className="jobs" ref={jobsRef}>*/}
         {/*  <Jobs jobs={jobs} />*/}
